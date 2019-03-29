@@ -360,7 +360,7 @@ textarea {
 }
 
 a {
-	color: #0181F6;
+	color: rgb(237, 85, 101);
 	text-decoration: none
 }
 
@@ -1997,4 +1997,44 @@ main {
 		order: 1;
 		margin-bottom: 0
 	}
+}
+
+/* Popup Card */
+.map-popup-card {
+	padding: 16px;
+	min-width: 276px;
+}
+.popup-card-label {
+	font-family: 'Hind Vadodara' !important; 
+	text-transform: uppercase; 
+	font-weight: 600; 
+	letter-spacing: .05rem; 
+	line-height:32px;
+	font-size: 12px !important;
+	color: #A0ACBB !important;
+	margin-bottom: 0px !important;
+}
+.popup-card-title {
+	font-size:24px!important;
+	margin-top: 8px !important;
+  max-width: 276px !important;
+	margin-bottom: 12px !important;
+}
+.popup-card-description {
+	font-family: "Montserrat" !important;
+	max-width: 276px !important;
+	margin-bottom: 8px !important;
+}
+.popup-card-classification {
+	font-family: "Arial";
+	font-weight: 600;
+	text-transform: uppercase;
+	/* font-style: italic; */
+	letter-spacing: .05rem;
+	font-size: 10px;
+	color: #989898;
+	margin-top:-4px;
+}
+.mapboxgl-popup-close-button {
+	color: #333;
 }
