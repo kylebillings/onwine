@@ -48,6 +48,17 @@ a {
 	-webkit-text-decoration-skip: objects
 }
 
+.site-header-inner a {
+	font-size: 10pt;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+}
+
+.links a {
+	padding-left: 16pt;
+}
+
 abbr[title] {
 	border-bottom: none;
 	text-decoration: underline;
